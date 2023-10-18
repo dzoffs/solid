@@ -1,0 +1,16 @@
+class Worker:
+    def work(self):
+        pass
+
+class Eater:
+    def eat(self):
+        pass
+
+class SuperWorker(Worker, Eater):
+    def work(self):
+        # Реалізація роботи
+        pass
+
+    def eat(self):
+        # Реалізація їжі
+        pass
